@@ -1,0 +1,28 @@
+:root {
+  --bar-color: #2af4b4;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+.array-container {
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+}
+
+
+.array-bar {
+  display: inline-block;
+  width: 10px;
+  margin-left: 1px;
+  background-color: var(--bar-color);
+}
